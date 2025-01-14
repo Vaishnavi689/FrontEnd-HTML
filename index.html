@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- fieldset is used to create border of your form -->
+    <fieldset>
+        <!-- legent tag is used to write heading on the top of fieldset border -->
+        <legend>Form</legend>
+    <form method="" action="">
+
+        <label for="">Gender</label>
+        <br>
+        <!-- radio button used to select one from multiple option -->
+        <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="Female" name="gender">Female
+        <br>
+
+
+
+
+        <h2>Enquiry Form</h2>
+        <!-- label is an inline tag jitna space use chahiye utna hi o leta hai  -->
+        <label for=""> Name</label>
+        <br>
+        <!-- input tag used to write single line content -->
+         <!-- Placeholder attribute is used to show your attribute kiske liye bana hai without label we can not judge the input kis ke liye bana hai -->
+          <!-- placeholder text box ke under likhega ki enter the name  it works like label jab hum text box mai type karenge to o remove hoga-->
+           <!-- input tag is a self closing tag -->
+        <input type="text"  pattern="[a-zA-Z ]{3 ,50}"  Placeholder="Enter the Name" name="uname">
+        <br><br>
+
+        <label for="">Cources</label>
+        <br>
+        <!-- checkbox is used to choose multiple option at a time -->
+        <input type="checkbox" value="Php">Php
+        <input type="checkbox" value="Java">Java
+
+        <input type="checkbox" value="C">C
+
+        <input type="checkbox" value="Python">Python
+        <input type="checkbox" value="Cpp">Cpp
+
+        <input type="checkbox" value="HTML">HTML
+        <br><br>
+
+
+
+
+
+
+
+        <label for="">Email</label>
+        <!-- email type allow to get data as type of email like .com ,@ ..etc -->
+        <!-- here name attribute used for back end developer for to save the form data  -->
+        <input type="email" placeholder="Enter the Email" name="uemail"><br>
+        <br>
+        <label for="">Phone</label>
+        <input type="tel"  pattern= "[0-9]{10}"  title="Enter the valid phone Number with 10 digit" placeholder="Enter the phone Number" name="uphone">
+        <br><br>
+
+        <label for=""> Message</label>
+        <textarea name=""  placeholder="Write a message"></textarea>
+        <!-- <input type="msg" placeholder="Enter the message" name="umsg"> -->
+        <br><br>
+
+
+        <!-- used to select file from drive of your device -->
+        <label for=""> Photo</label><br>
+        <input type="file"><br><br>
+
+        <label for="">Password</label><br>
+        <input type="password"><br><br>
+
+        <!-- use of drop down concept for select country -->
+        <label for="">Country</label><br>
+        <select name="" id="">
+            <option value="">-----Select Country-----</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Japan">Japan</option>
+            <option value="Pakisthan">Pakisthan</option>
+            <option value="Afrika">Afrika</option><br>
+        </select><br><br>
+
+        <!-- used of optiongroup  , its used to show categories data in the form of group-->
+        <label for="">Cources</label>
+        <select name="" id="">
+        <optgroup label="---FrontEnd---">
+            <option value="">CSS</option>
+            <option value="">HTML</option>
+            <option value="">JS</option>
+        </optgroup>
+
+
+        <optgroup label="---BacktEnd---">
+            <option value="">Php</option>
+            <option value="">Node</option>
+            <option value="">MySql</option>
+        </optgroup>
+
+        </select><br><br>
+        
+
+
+        <!--   this is a close tag iske middle  mai jo likhte hai vo button ke upar aata hai <button type="submit">save</button> -->
+           <!-- value attribute ke under jo likha o button ke uppar likha aayega -->
+            <button type="submit">Save</button>
+         <input type="submit" value="Go">
+
+    </form>
+</fieldset>
+</body>
+</html>
