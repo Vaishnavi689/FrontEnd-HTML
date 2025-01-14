@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- iframe used to bind website on your web -->
+     <!-- we can see youtube video using iframe step: go to youtube video right click and  select copy embed code and pest on vs code program you got youtube url -->
+    <!-- <iframe src="https://www.wscubetech.com/"   width="100%" height="800"> </iframe> -->
+    <iframe width="600" height="514" src="https://www.youtube.com/embed/lArm8yQlskc" title="HTML Full Course for Beginners in HINDI | Learn HTML with Projects in 3 Hours [2025]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+    <!-- you can copy path of google map using iframe -->
+   <!-- steps for google map: go to google map click on shre button then copy embed map -->
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.267238042943!2d76.6780264!3d20.7804738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7457296aaba57%3A0xa9f05c70098ee6c7!2sShri%20Sant%20Gajanan%20Maharaj%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1736314525320!5m2!1sen!2sin" width="600" height="514" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+   <header align="Center" >WelCome</header>
+    <fieldset>
+        <legend>HTML 5 form Input </legend>
+        <form action="">
+
+            Name <br>
+            <!-- required attribute is mendatory  its validation-->
+            <!-- minlength and maxlength is depend on the length on text -->
+            <input type="text" required="" minlength="5"  maxlength="30" name="" placeholder="Enter the name"> <br>
+            QTY <br>
+            <!-- type number used for increasing decreasing counting number system -->
+            <!-- min attribute used for minimum number we cant go less than that min number -->
+             <!-- max is called counting stop hear at maximum number -->
+            <!-- min and max write validation on numbers of counting  -->
+             <input type="number" min="" max=""> <br>
+             
+             <!-- used to weekly report  -->
+             Week <br>
+             <input type="week"> <br>
+             <!-- input type date used to create calender -->
+              Calender <br>
+             <input type="Date"><br>
+             Time <br>
+             <!-- time type used to appoinment website like dr appoinment -->
+             <!-- used to time slot oriented work -->
+             <input type="Time"> <br>
+
+             <!-- used to change background colour -->
+             colour <br>
+             <input type="color"><br>
+
+             <!-- used to save url type data , like http , www,or website -->
+              <!-- its used for backend to store deskboard  setup like fb url , linkeddin url..etc-->
+             URL <br>
+             <input type="url"><br>
+             <!-- range gives the range slidden to you  its used for E-commarce for filter like choose range-->
+             Range <br>
+             <input type="range"> <br>
+
+             Datalist <br>
+             <input type="text" list="Cource" placeholder="Search Anything"><br >
+             <!-- datalist tag used for giving the suggession just like we got on google at searching time -->
+             <datalist id="Cource">
+                <option value="PHP"></option>
+                <option value="Java"></option>
+                <option value="C"></option>
+                <option value="CPP"></option>
+             </datalist>
+
+             <!-- used to submit form -->
+            <button>Submit</button>
+            <!-- used to reset form -->
+            <button>Reset</button>
+            <!--  we can create reset button using input tag also___<input type="Reset" value="Reset"> -->
+        
+            <!-- its not submit button its save button to save small data we write in form its mostly used in css -->
+            <button type="button">Save</button>
+        </form>
+    </fieldset>
+</body>
+</html>
